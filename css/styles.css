@@ -239,23 +239,35 @@ span:nth-of-type(3n) {
 /* UP word */
 
 .word .upULetter {
+  font-weight: normal;
 }
 .word .upPLetter {
+  text-transform: uppercase;
 }
 
 /* GARDENING word */
 
 .word .gardeningGLetter {
+  color: #24ff45;
 }
 .word .gardeningALetter {
+  font-family: "Kablammo", system-ui;
+  text-transform: uppercase;
 }
 .word .gardeningRLetter {
+  font-weight: 200;
 }
 .word .gardeningDLetter {
+  color: rgb(248, 36, 255);
 }
-.word .gardeningELetter {
+
+/* Letting the nth-child classes do the work from here */
+
+/* .word .gardeningELetter {
+
 }
 .word .gardeningNLetter {
+
 }
 .word .gardeningILetter {
 }
@@ -264,7 +276,7 @@ span:nth-of-type(3n) {
 .word .gardeningGTwoLetter {
 }
 
-/* BECAUSE word */
+/* BECAUSE word 
 
 .word .becauseBLetter {
 }
@@ -281,7 +293,7 @@ span:nth-of-type(3n) {
 .word .becauseETwoLetter {
 }
 
-/* THEY word */
+/* THEY word 
 
 .word .theyTLetter {
 }
@@ -292,7 +304,7 @@ span:nth-of-type(3n) {
 .word .theyYLetter {
 }
 
-/* WANTED word */
+/* WANTED word 
 
 .word .wantedWLetter {
 }
@@ -307,14 +319,14 @@ span:nth-of-type(3n) {
 .word .wantedDLetter {
 }
 
-/* TO word */
+/* TO word 
 
 .word .toTLetter {
 }
 .word .toOLetter {
 }
 
-/* IMPROVE word */
+/* IMPROVE word 
 
 .word .improveILetter {
 }
@@ -331,7 +343,7 @@ span:nth-of-type(3n) {
 .word .improveELetter {
 }
 
-/* THEIR word */
+/* THEIR word 
 
 .word .theirTLetter {
 }
@@ -344,7 +356,7 @@ span:nth-of-type(3n) {
 .word .theirRLetter {
 }
 
-/* ROOT word */
+/* ROOT word 
 
 .word .rootRLetter {
 }
@@ -355,7 +367,7 @@ span:nth-of-type(3n) {
 .word .rootTLetter {
 }
 
-/* SKILLS word */
+/* SKILLS word 
 
 .word .skillsSLetter {
 }
@@ -376,11 +388,6 @@ span:nth-of-type(3n) {
   font-size: 80px;
   text-decoration: none;
 }
-.word .exclamation-mark {
-}
-.word .question-mark {
-}
-
 /* SINGULAR STYLES */
 
 .word .overline {
